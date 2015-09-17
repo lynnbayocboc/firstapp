@@ -15,6 +15,7 @@ group :development do
 end
 gem 'bootstrap-sass'
 gem 'devise'
+gem 'font-awesome-rails'
 gem 'gibbon'
 gem 'high_voltage'
 gem 'stripe'
