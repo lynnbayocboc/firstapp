@@ -7,7 +7,7 @@
   <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 <% end %>
-
+<%= render :partial => 'purchase' %>
 <!-- Header -->
   <header>
       <div class="container">
@@ -80,8 +80,8 @@
                                       <li>Digital Marketing</li>
                                   </ul>
                                   <div class="pricing-footer">
-
-                                      <%= render :partial => 'purchase' %>
+                                    <br />
+                                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#purchaseModal">Purchase</a>
                                   </div>
                               </div>
                           </div>
@@ -102,8 +102,7 @@
                                       <li>Digital Marketing</li>
                                   </ul>
                                   <div class="pricing-footer">
-
-                                      <%= render :partial => 'purchase' %>
+                                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#purchaseModal">Purchase</a>
                                   </div>
                               </div>
                           </div>
