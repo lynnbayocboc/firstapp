@@ -64,14 +64,14 @@
 
 .synopsis {
     color: #777;
-	font-size: 15px;
+  font-size: 15px;
 }
 
  .textwrap {
-	float: left;
-	margin: 10px;
-	text-align: left;
-	width: 250px;
+  float: left;
+  margin: 10px;
+  text-align: left;
+  width: 250px;
 
 }
 
@@ -145,7 +145,7 @@ h6 {
     font-family:"Shadows Into Light","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #990000;
-    background-color: #990000;
+    background-color: white;
 }
 
 .btn-primary:hover,
@@ -248,7 +248,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #990000;
-	
+
 }
 
 .navbar-default .navbar-brand:hover,
@@ -280,7 +280,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
-	font-size:16px;
+  font-size:16px;
     letter-spacing: 1px;
     color: #990000;
 }
